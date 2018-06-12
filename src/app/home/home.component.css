@@ -1,6 +1,16 @@
-.long-beach-background {
+.home-background {
   position: absolute;
   height: 100%;
   width: 100%;
   background-image: url("./lb.jpg");
+}
+
+.home-text {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 150%
 }
