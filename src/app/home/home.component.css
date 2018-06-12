@@ -1,0 +1,6 @@
+.long-beach-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("./lb.jpg");
+}
