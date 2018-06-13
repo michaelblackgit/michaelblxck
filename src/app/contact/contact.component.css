@@ -5,5 +5,19 @@
   top: 40%;
   left: 40%;
   color: black;
-  font-size: 150%
+  font-size: 150%;
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .contact-text {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 30%;
+    font-size: 90%;
+    color: black;
+    text-align: justify;
+  }
 }
