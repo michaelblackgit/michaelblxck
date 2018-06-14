@@ -16,7 +16,11 @@
   color: white;
   font-size: 300%;
   text-align: justify;
+  animation-name: welcome;
+  animation-duration: 2s;
 }
+
+
 
 @media (max-width: 1500px) {
   .home-text {
@@ -28,6 +32,8 @@
     font-size: 300%;
     color: white;
     text-align: justify;
+    animation-name: welcome;
+    animation-duration: 2s;
   }
 }
 
@@ -41,5 +47,12 @@
     font-size: 300%;
     color: white;
     text-align: justify;
+    animation-name: welcome;
+    animation-duration: 2s;
   }
+}
+
+@keyframes welcome {
+  from {color: white;}
+  to {color: black;}
 }
