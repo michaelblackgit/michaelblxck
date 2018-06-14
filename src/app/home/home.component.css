@@ -1,18 +1,20 @@
 .home-background {
-  position: absolute;
+  position: fixed;
+  top: 55px;
   height: 100%;
   width: 100%;
   background-image: url("./lb.jpg");
+  background-attachment: fixed;
 }
 
 .home-text {
   position: absolute;
   width: 25%;
   height: 25%;
-  top: 10%;
-  left: 70%;
+  top: 40%;
+  left: 45%;
   color: white;
-  font-size: 150%;
+  font-size: 300%;
   text-align: justify;
 }
 
@@ -21,9 +23,22 @@
     position: absolute;
     width: 30%;
     height: 30%;
-    top: 10%;
-    left: 5%;
-    font-size: 90%;
+    top: 40%;
+    left: 40%;
+    font-size: 300%;
+    color: white;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 750px) {
+  .home-text {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 40%;
+    left: 30%;
+    font-size: 300%;
     color: white;
     text-align: justify;
   }
