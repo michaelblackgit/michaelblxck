@@ -1,6 +1,17 @@
-<mat-toolbar class="toolbar">
-  <a routerLink="/" class="link">Michael Black</a>
-  <span class="toolbar-title-spacer"></span>
-  <a routerLink="/about" class="toolbar-link-spacer link">About</a>
-  <a routerLink="/contact" class="toolbar-link-spacer link">Contact</a>
-</mat-toolbar>
+<div *ngIf="showAnimation()">
+  <mat-toolbar class="animated-toolbar">
+    <a routerLink="/" class="link">Michael Black</a>
+    <span class="toolbar-title-spacer"></span>
+    <a routerLink="/about" class="toolbar-link-spacer link">About</a>
+    <a routerLink="/contact" class="toolbar-link-spacer link">Contact</a>
+  </mat-toolbar>
+</div>
+
+<div *ngIf="!showAnimation()">
+  <mat-toolbar class="toolbar">
+    <a routerLink="/" class="link">Michael Black</a>
+    <span class="toolbar-title-spacer"></span>
+    <a routerLink="/about" class="toolbar-link-spacer link">About</a>
+    <a routerLink="/contact" class="toolbar-link-spacer link">Contact</a>
+  </mat-toolbar>
+</div>
