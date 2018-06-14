@@ -33,7 +33,7 @@
     color: white;
     text-align: justify;
     animation-name: welcome;
-    animation-duration: 2s;
+    animation-duration: 4s;
   }
 }
 
@@ -53,6 +53,8 @@
 }
 
 @keyframes welcome {
-  from {color: white;}
-  to {color: black;}
+  0% {color: white;}
+  50% {color: black;}
+  100% {color: white;}
+
 }
