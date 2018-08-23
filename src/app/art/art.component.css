@@ -1,0 +1,28 @@
+img {
+  width: 75%;
+  height: 75%;
+  padding-top: 0.5cm;
+  padding-bottom: 0.5cm;
+  padding-left: 1cm;
+  padding-right: 5%;
+  float: right;
+}
+
+.image-scroll {
+  width: 75%;
+  height: 75%;
+  padding-right: 25%;
+  float: right;
+}
+
+.align-right {
+  float: right;
+}
+
+#image-wrapper .text {
+  visibility:hidden;
+}
+
+#image-wrapper:hover .text {
+  visibility:visible;
+}

@@ -1,0 +1,10 @@
+<div class="toolbar-buffer">
+  <div class="image-scroll">
+    <div class="align-right" id="image-wrapper" *ngFor="let artPiece of art">
+      <div id="image-wrapper">
+        <img class="hover" src="{{ artPiece.ref }}"/>
+        <p class="text">{{ artPiece.name }}</p>
+      </div>
+    </div>
+  </div>
+</div>
